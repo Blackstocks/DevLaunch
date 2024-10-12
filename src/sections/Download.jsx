@@ -14,16 +14,15 @@ const Download = () => {
             <div className="relative mr-6 flex-540 max-xl:flex-280 max-lg:flex256 max-md:flex-100">
               <div className="mb-10">
                 <img
-                  src="/images/xora.svg"
-                  width={160}
-                  height={55}
+                  src="/images/logo_dev.png"
+                  width={120}
+                  height={45}
                   alt="xora"
                 />
               </div>
 
               <p className="body-1 mb-10 max-w-md">
-                Try it now for free on iOS, Android, PC, Web - whatever your
-                flavor, we've got you covered.
+              Revolutionizing experiences with tailored solutions for every platform imaginable.
               </p>
 
               <ul className="flex flex-wrap items-center gap-6">
@@ -59,7 +58,7 @@ const Download = () => {
                   <span className="download_preview-dot left-16 bg-p1/15" />
 
                   <img
-                    src="/images/screen.jpg"
+                    src="/images/image.jpg"
                     width={855}
                     height={655}
                     alt="screen"
@@ -70,13 +69,13 @@ const Download = () => {
             </div>
           </div>
 
-          <ul className="mt-24 flex justify-center max-lg:hidden">
+          {/* <ul className="mt-24 flex justify-center max-lg:hidden">
             {logos.map(({ id, url, width, height, title }) => (
               <li key={id} className="mx-10">
                 <img src={url} width={width} height={height} alt={title} />
               </li>
             ))}
-          </ul>
+          </ul> */}
         </div>
       </Element>
     </section>

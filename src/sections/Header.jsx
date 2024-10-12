@@ -39,9 +39,9 @@ const Header = () => {
         hasScrolled && "py-2 bg-black-100 backdrop-blur-[8px]",
       )}
     >
-      <div className="container flex h-14 items-center max-lg:px-5">
+      <div className="container flex h-14 items-center max-lg:px-5 m-4">
         <a className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src="/images/xora.svg" width={115} height={55} alt="logo" />
+          <img src="/images/devfull-gray1.png" width={240} height={120} alt="logo" />
         </a>
 
         <div
@@ -70,9 +70,9 @@ const Header = () => {
                     )}
                   >
                     <img
-                      src="/images/xora.svg"
-                      width={160}
-                      height={55}
+                      src="/images/devfull-gray1.png"
+                      width={200}
+                      height={90}
                       alt="logo"
                     />
                   </LinkScroll>
@@ -81,7 +81,7 @@ const Header = () => {
                 <li className="nav-li">
                   <NavLink title="faq" />
                   <div className="dot" />
-                  <NavLink title="download" />
+                  <NavLink title="Team" />
                 </li>
               </ul>
             </nav>
