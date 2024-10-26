@@ -58,7 +58,7 @@ const Download = () => {
                   <span className="download_preview-dot left-16 bg-p1/15" />
 
                   <img
-                    src="/images/image.jpg"
+                    src="/images/image4.jpg"
                     width={855}
                     height={655}
                     alt="screen"
